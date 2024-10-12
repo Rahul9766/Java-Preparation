@@ -12,7 +12,7 @@ public class LongestSubstringWithoutRepeatChar {
 		String longestSubstring=null;
 		int longestSubstringLength=0;
 		Map <Character,Integer> map= new LinkedHashMap<>();
-		List<Character> chars=new ArrayList<>();
+	
 		char arr[]=string.toCharArray();
 		
 		for(int i=0;i<arr.length;i++) 
